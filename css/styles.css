@@ -1,0 +1,902 @@
+html {
+    box-sizing:border-box;
+}
+
+*, *:before, *:after {
+    box-sizing:inherit;
+
+        .container
+            {
+            font-family: Poppins;
+            
+            
+            }
+
+
+                .poppins
+                    {
+                                                text-align: center;
+                                                font-weight: 800;
+                                                font-size: 100px;
+                                                background: linear-gradient(#FFFFFF,#FFDB78);
+                                                border: 0px solid #FFDB78;
+                                                border-radius: 10px;
+                        }
+                    
+
+                       
+
+                       
+
+                    .section-boxes
+                    {
+                       padding: 0px;
+                       text-align: center;
+                       vertical-align: middle;
+                       background-color: #6BCCE1;
+                       height: 30px;
+                       border-color: #FFFFFF;
+                       border: 0px solid;
+                       transition-property: color, opacity;
+                       transition-delay: 0.5s;
+                       top: 10px;
+                       column-rule: solid #FFFFFF;
+                       column-rule-width: medium;
+                       column-count: 6;
+                       color: #FFFFFF;
+                       font-weight: 900;
+                       column-count: 5;
+                       column-fill:balance;
+                       grid-row: 1;
+                       border-radius: 5px;
+                       transition:  opacity .3s;
+                        }   
+
+                        .navburger
+                               {
+                                   width: 50px;
+                                   height: 50px;
+                                   border-radius: 50%;
+                                   border: #FFFFFF solid 2px;
+                                   font-weight: 900;
+                                   font-size: 150%;
+                                   color: #FFFFFF;
+                                   padding: 6px 17px 0px;
+                                   background-color: #EF4658;
+                                   transition-property: color;
+                                   background-color: #EF4658, #2E3192, #006838, #FFDB78, #6DCCE1, #F170AB, #4EBE99;
+                                   transition-delay: 0.5s;
+                                   transition-duration: 2s;
+                                   position: sticky;
+                                   top:50px;
+                                   left: 1980px;
+                                   backdrop-filter: invert (80%);
+                                        
+                                                }
+                         
+                    .section-boxes:hover{
+                                    color: #FFDB78;
+                                    opacity: 90%;
+                                    border: 0px;                
+                                                        }
+
+
+                    .navburger:hover{
+                                    color: #6DCCE1;
+                                    opacity: 90%;
+                                    border: 0px;                
+                                                        }
+
+
+                    .body-text
+                    {
+                        font-weight: 400;
+                        column-count:2;
+                        column-fill: balance;
+                        column-width:640px,;
+                        background: linear-gradient(#FFDB78,#FFFFFF);
+                        box-color: #FFFFFF;
+                        padding: 20px 20px 20px;
+                        width: 100;
+                        font-size:100%;
+                        height: 250px;
+                        border-radius: 10px;
+
+                    }
+
+
+                                    .grid
+                                    {
+                                        display: grid;
+                                        height: 300%;
+                                        width: 3,1fr;
+                                        column-count:3 ;
+                                        grid-column-gap: 20px;
+                                        grid-row-gap: 20px;
+                                        text-align: center;
+                                        line-height: 200%;
+                                        font-size: 200%;
+                                        padding:  0px 60px;
+                                        border-radius: 10px;
+                                        
+                                        column-fill: balance
+                                        
+                                            }
+
+                                    .item1
+                                    {
+                                        background-color: #FFDB78;    
+                                        padding: 100px 100px;
+                                        height: 100px 1000px;
+                                        width: 33;
+                                        grid-column: 1;
+                                        grid-row-gap: 100;
+                                        font-weight: 900;
+                                        border-radius: 10px;
+                                      
+                                        }
+                                    .item2
+                                    {
+                                        background-color: #FFDB78;
+                                        padding:  100px 100px;
+                                        grid-column: 2;
+                                        grid-row: 1;
+                                        height: 100px 100px;
+                                        width: 33;
+                                        font-weight: 800;
+                                        border-radius: 10px;
+                                        }
+
+                                        .item3
+                                    {
+                                        background-color: #FFDB78;
+                                        padding:  100px 100px;
+                                        grid-column: 3;
+                                        grid-row: 1;
+                                        height: 100px 100px;
+                                        width: 33;
+                                        font-weight: 700;
+                                        border-radius: 10px;
+                                        }
+
+                                    .item4
+                                    {
+                                        background-color:#6BCCE1;
+                                        padding:  100px 100px;
+                                        height: 100px 100px;
+                                        grid-column: 1;
+                                        grid-row: 2;
+                                        width: 33;
+                                        font-weight: 100;
+                                        border-radius: 10px;
+                                          margin-bottom: 20px;
+                                        
+                                        }
+                                    .item5
+                                    {
+                                        background-color: #6BCCE1;
+                                        padding: 100px;
+                                        height: 100px 100px;
+                                        grid-column: 2;
+                                        grid-row: 2;
+                                        width: 33;
+                                        font-weight: 300;
+                                        border-radius: 10px;
+                                          margin-bottom: 20px;
+                                        
+                                        }
+                                    .item6
+                                    {
+                                        background-color:#6BCCE1;
+                                        padding: 100px;
+                                        height: 100px 100px;
+                                        grid-column: 3;
+                                        grid-row: 2;
+                                        width: 33;
+                                        font-weight: 500;
+                                        border-radius: 10px;
+                                          margin-bottom: 20px;
+                                        
+                                        }
+
+                                     #4EBE99;
+
+
+
+
+                    .spec-columns
+                            {
+                                column-count:1;
+                                column-fill: balance;
+                             
+                                border-radius: 10px 10px;
+                                margin-left: 10px;
+                                    margin-right: auto;
+                                    margin-left: auto;
+                                    padding: 50px 50px 50px 50px;
+                                    align-content: start;
+                                     width: 50%;
+                                    font-size: 100%;
+                                    }
+                                
+                            .specimen
+                                    
+                                    {
+                                    color: #FFFFFF;
+                                    padding:  50px 50px 50px 50px ;
+                                    margin-left: auto;
+                                    margin-right: auto;
+                                    margin-top: -120px;
+                                    ;
+                                    background-color: #F170AB;
+                                    width: 100%;
+                                    column-fill: auto;
+                                    line-height: 150%;
+                                    column-width: 25%;
+                                    
+                                    text-align: center;
+                                    border-radius: 10px;
+
+                                        }
+                                .spec1
+                                    {
+                                        font-weight: 900;
+  
+                                        }
+                                 .spec2
+                                    {
+                                        font-weight: 900;
+  
+                                        }
+                             .spec3
+                                    {
+                                        font-weight: 800;
+  
+                                        }
+                              .spec4
+                                    {
+                                        font-weight: 800;
+  
+                                        }
+                              .spec5
+                                    {
+                                        font-weight: 700;
+  
+                                        }
+                                  .spec6
+                                    {
+                                        font-weight: 700;
+  
+                                        }
+                                  .spec7
+                                    {
+                                        font-weight: 600;
+  
+                                        }
+
+                                  .spec8
+                                    {
+                                        font-weight: 600;
+  
+                                        }
+                                  .spec9
+                                    {
+                                        font-weight: 500;
+                                        margin-bottom: 20px;
+  
+                                        }
+                                  .spec10
+                                    {
+                                        font-weight: 500;
+  
+                                        }
+                                         .spec11
+                                    {
+                                        font-weight: 400;
+  
+                                        }
+                                         .spec12
+                                    {
+                                        font-weight: 400;
+  
+                                        }
+                                         .spec13
+                                    {
+                                        font-weight: 300;
+  
+                                        }
+                                     .spec14
+                                    {
+                                        font-weight: 300;
+  
+                                        }
+                                     .spec15
+                                    {
+                                        font-weight: 200;
+  
+                                        }
+                                     .spec16
+                                    {
+                                        font-weight: 200;
+  
+                                        }
+                                     .spec17
+                                    {
+                                        font-weight: 100;
+  
+                                        }
+                                     .spec18
+                                    {
+                                        font-weight: 100;
+  
+                                        }
+
+
+
+                        .subspecimen
+                                {
+                                   column-count: 1;
+                                   column-fill: auto;
+                                   background-color: #4EBE99;
+                                   text-align: center;
+                                   column-gap:20px;
+                                   color: #FFFFFF;
+                                   padding: 50px ;
+                                   column-width: 25%;
+                                   width: 85%;
+                                   border-radius: 10px;
+                                   position: static;
+                                   align-items: center;
+                                   height: 100%;
+                                   font-size:150%;
+                                   margin-left: auto;
+                                   margin-right: auto;
+                                }
+
+                                .characters
+                                    {
+                                        font-size: 150%;
+                                        font-weight: 100;
+                                                
+                                                }
+
+                                    .characters:hover{
+                                    color: ##F170AB;
+                                    opacity: 90%;
+                                    border: 0px;                
+                                                        }
+
+
+                                   .l1
+                                    {
+                                        font-size:450%;
+                                        font-weight:900;
+
+                                        }
+                                    
+                                   .l2
+                                    {
+                                        font-size:260%;
+                                         font-weight:900;
+
+                                        }
+                                    .l3
+                                    {
+                                        font-size:245%;
+                                         font-weight:900;
+
+                                        }
+                                     .l4
+                                    {
+                                        font-size:225%;
+                                         font-weight:900;
+
+                                        }
+                                     .l5
+                                    {
+                                        font-size:210%;
+                                         font-weight:900;
+
+                                        }
+                                 .l6
+                                    {
+                                        font-size:200%;
+                                         font-weight:900;
+
+                                        }
+
+                                 .l7
+                                    {
+                                        font-size:180%;
+                                         font-weight:900;
+
+                                        }
+                                 .l8
+                                    {
+                                        font-size:150%;
+                                         font-weight:900;
+
+                                        }
+                                 .l9
+                                    {
+                                        font-size:130%;
+                                         font-weight:900;
+                                    }
+
+                                 .l10
+                                    {
+                                        font-size:110%;
+                                         font-weight:900;
+
+                                        }
+
+                                 .l11
+                                    {
+                                        font-size:100%;
+                                         font-weight:900;
+                                    }
+                                    .l12
+                                    {
+                                        font-size:90%;
+                                         font-weight:900;
+                                    }
+                                     .l13
+                                    {
+                                        font-size:80%;
+                                         font-weight:900;
+                                    }
+                                     .l14
+                                    {
+                                        font-size:70%;
+                                         font-weight:900;
+                                    }
+                                     .l15
+                                    {
+                                        font-size:60%;
+                                         font-weight:900;
+                                    }
+                                     .l16
+                                    {
+                                        font-size:50%;
+                                         font-weight:900;
+                                    }
+                                     .l17
+                                    {
+                                        font-size:40%;
+                                         font-weight:900;
+                                    }
+                                     .l18
+                                    {
+                                        font-size:30%;
+                                         font-weight:900;
+                                    }
+                                     .l19
+                                    {
+                                        font-size:20%;
+                                         font-weight:900;
+                                    }
+                                     .l20
+                                    {
+                                        font-size:10%;
+                                         font-weight:900;
+                                    }
+                                            .panagram
+                                                {
+                                                text-align: center;
+                                                font-weight: 800;
+                                                font-size: 100px;
+                                                margin-bottom: -20px
+
+                                                    }
+
+
+                        .pan-grid
+                                {
+                                    column-count: 2;
+                                   column-gap:0px;
+                                   padding: 20px 20px;
+                                   display:inline-block;
+                                   height: 10%;
+                                    grid-column: 1;
+                                   
+
+                                     
+                                    
+                                    
+
+                                        
+                                        }
+
+                                        .slider
+                                            {
+                                                background-color: #F170AB;
+                                                column-fill: auto;
+                                                width: 50%;
+                                                grid-template-columns: 20%;
+                                                font-size:300%;
+                                                padding: 100px 100px 100px 100px;
+                                                text-align: center;
+                                                color:#FFFFFF;
+                                                display: inline-block;
+                                              
+                                                font-weight: 700;
+                                                margin-bottom: 10%;
+                                                border-radius: 10px;
+
+                                                   }
+
+                                        .black
+                                            {
+                                                font-weight: 900;
+                                                font-size: 220%;
+                                                width:100%;
+                                                margin-right:00px;
+                                                margin-left:-40%;
+                                                display: inline-block;
+                                                margin-top: 30px;
+                                                padding-top: 20px;
+                                                color:#00000;
+
+                                              
+                                                
+                                                }
+
+                                        .bold
+                                            {
+                                                font-weight: 700;
+                                                font-size: 220%;
+                                                margin-left:-40%;
+                                                display: inline-block;
+                                                 padding-top: 20px;
+                                                  color:#00000;
+                                                }
+
+                                        
+                                        .medium
+                                            {
+                                                font-weight: 500;
+                                              font-size: 220%;
+                                                margin-left:-40%;
+                                                 color:#00000;
+                                                  padding-top: 20px;
+                                                display: inline-block;
+                                                }
+
+                                        
+                                        .light
+                                            {
+                                                font-weight: 300;
+                                                font-size: 220%;
+                                              margin-left:-40%;
+                                                display: inline-block;
+                                                  padding-top: 20px;
+                                                   color:#00000;
+                                                }
+
+                                        
+                                        .thin
+                                            {
+                                                font-weight: 100;
+                                                font-size: 220%;
+                                              margin-left:-40%;
+                                                display: inline-block;
+                                                  padding-top: 20px;
+                                                   color:#00000;
+                                                
+                                                }
+
+
+
+                                .display-type
+                                        {   
+                                            background-color: #FFDB78;
+                                           
+                                            z-index: 1;
+                                            border-radius: 10px;
+                                            height: 80%;
+                                            margin-top: -30px:;
+                                            padding: 20px 20px;
+                                            display: grid;
+                                            grid-template-columns: 2fr 1fr;
+                                            grid-auto-flow: row;
+                                            grid-row-start:1;
+                                            gap: 2.5%;
+                                           
+                                            }
+
+                                .pan1
+                                    {
+                                         background-color:#FFFFFF;
+                                         outline-color:#FFFFFF;
+                                         padding: 10px 10px 10px 10px;
+                                         border-radius: 10px;
+                                         width: 100%;
+                                         column-height: 100%;
+                                         display: grid;
+                                         font-weight: 900;
+                                         font-size: 250%;
+                                         column-span: all;
+                                         
+                                         page-break-inside: avoid;
+                                            }
+
+                                .pan2
+                                    {
+                                         background-color:#FFFFFF;
+                                         outline-color:#FFFFFF;
+                                      
+                                         display: grid;
+                                         font-size: 105%;
+                                         border-radius: 10px;
+                                         column-fill: auto;
+                                           page-break-inside: avoid;
+                                         padding: 10px;
+                                       
+                                         width: 100%;
+                                         font-weight: 400;
+                                         margin-top: auto;
+                                            }
+                                    .pan3
+                                    {
+                                         background-color:#FFFFFF;
+                                         outline-color:#FFFFFF;
+                                     grid-area: b;
+                                         page-break-inside: avoid;
+                                         display: grid;
+                                         font-size: 80%;
+                                         border-radius: 10px;
+                                         padding: 10px;
+                                    
+                                         width: 100%;
+                                         font-weight: 200;
+                                        
+                                         
+                                            }
+
+                                    .pan4
+                                        {
+                                              display: grid;
+                                            color:#FFFFFF;
+                                            font-weight: 900;
+                                            font-size: 400%;
+                                            height: 300px;
+                                            width: 100%;
+                                            margin-top: -70%;
+                                                    }
+
+                                     .pan5
+                                        {
+                                            color:#FFFFFF;
+                                              display: inline-block;
+                                            font-weight: 500;
+                                            font-size: 150%;
+                                             width: 110%;
+                                             
+                                                    }
+                                          .pan6
+                                        {
+                                            color:#FFFFFF;
+                                              display: grid;
+                                            font-weight: 200;
+                                            font-size: 320%;
+                                            width: 120%;
+                                            margin-top: 30px;
+                                                
+                                                    }                              
+                                                                    .more-fonts
+                                                                    {
+                                                                         position: absolute;
+                                                                            
+                                                                            }
+
+                                                                                .more
+                                                                                    {
+                                                                                        font-weight:900;
+                                                                                        color: #FFFFFF;
+                                                                                        text-align: center;
+                                                                                        padding:70px 0px 0px ;
+                                                                                        height: 200px;
+                                                                                        width: 200px;
+                                                                                       
+                                                                                      margin-top: 20px;
+                                                                                     
+                                                                                        border-radius: 50%;
+                                                                                        background-color: #4EBE99;
+                                                                                        margin-left: 20px;
+                                                                                        
+
+                                                                                            }
+
+                                                                                .foundry
+                                                                                    {
+                                                                                        font-size: 150%;
+                                                                                        font-weight: 700;
+                                                                                        background-color: #F170AB;
+                                                                                       
+                                                                                        margin-left: 80%;
+                                                                                        width: 500%;
+                                                                                       
+                                                                                        position: absolute;
+                                                                                        top: 20%;
+                                                                                        left: 100%;
+                                                                                        padding: 20px;
+                                                                                        border-radius: 10px;
+                                                                                        
+                                                                                        color: #FFFFFF;
+                                                                                      
+                                                                                       
+                                                                                        text-align: right;
+                                                                                        
+                                                                                            }
+
+                                                                .linkz
+                                                                    {
+                                                                       position: static;
+                                                                      
+                                                                        }
+                                                                            .links1
+                                                                            {
+                                                                                
+                                                                                        font-weight:900;
+                                                                                        color: #FFFFFF;
+                                                                                        text-align: center;
+                                                                                        padding:80px 0px 70px ;
+                                                                                        height: 200px;
+                                                                                        font-size: 150%;
+                                                                                           position: relative;
+                                                                                           left: 85%;
+                                                                                           bottom: -285px;
+                                                                                        width: 200px;
+                                                                                        border-radius: 50%;
+                                                                                        background-color: #4EBE99;
+                                                                                        ;
+                                                                                        
+                                                                                        }
+                                                                        .links2
+                                                                                {
+                                                                                      font-size: 240%;
+                                                                                      font-weight: 700;
+                                                                                        transition-property: color, opacity;
+                                                                                        transition-delay: 0.7s;
+                                                                                          transition:  opacity .3s;
+                                                                                        background-color: #F170AB;
+                                                                                        margin-right: 80%;
+                                                                                        margin-bottom:100px;
+                                                                                        color: #FFFFFF;
+                                                                                        width: 75%;
+                                                                                      appearance: auto;
+                                                                                        position: relative;
+
+                                                                                           bottom: -50px;
+                                                                                        grid-column-end: 2;
+                                                                                        text-align: left;
+                                                                                        padding: 20px;
+                                                                                        border-radius: 10px;
+                                                                                            }
+                                                                                    a{
+                                                                                        color:#FFFFFF;
+                                                                                        
+                                                                                            }
+
+                                                                                    a:hover
+                                                                                    {
+                                                                                        color:#6BCCE1;
+                                                                                            
+                                                                                            }
+                                                                                            
+                                                                                    a:link
+                                                                                        {
+                                                                                              text-decoration: none;
+                                                                                                
+                                                                                                }
+                                                                                    .links2:hover{
+                                                                                        color: #FFFFFF;
+                                                                                        background-color: #F170AB;
+                                                                                        opacity: 100%;
+                                                                                     ;                 
+                                                                                                 }
+
+                                                                              .links-ext
+                                                                            {
+                                                                          font-weight: 900;
+                                                                            background-color: #FFDB78;
+                                                                            border-radius: 10px;
+                                                                           text-align: center;
+                                                                            column-count:7;
+                                                                            column-fill: balance;
+                                                                            padding: 0px;
+                                                                             animation: links-ext 3s linear 1s infinite running slidein;
+
+                                                                       animation-direction: normal;
+                                                                                                
+                                                                                                }
+
+                                                                     
+
+                                                                    .itf
+                                                                        {
+
+                                                                            font-weight: 900;
+                                                                            background-color: #FFDB78;
+                                                                            border-radius: 10px;
+                                                                            width: 100%;
+                                                                            text-align: center;
+                                                                            font-size: 120%;
+                                                                             color: #FFFFFF;
+                                                                                }
+
+
+                                                                    .x
+                                                                        {
+
+                                                                            font-weight: 900;
+                                                                            background-color: #FFDB78;
+                                                                            border-radius: 10px;
+                                                                            width: 100%;
+                                                                            text-align: center;
+                                                                              font-size: 120%;
+                                                                               color: #FFFFFF;
+                                                                                }
+
+
+                                                                    .f
+                                                                        {
+
+                                                                            font-weight: 900;
+                                                                            background-color: #FFDB78;
+                                                                            border-radius: 10px;
+                                                                            width: 100%;
+                                                                            text-align: center;
+                                                                              font-size: 120%;
+                                                                               color: #FFFFFF;
+                                                                                }
+
+                                                                    .cc
+                                                                        {
+
+                                                                            font-weight: 900;
+                                                                            background-color: #FFDB78;
+                                                                            border-radius: 10px;
+                                                                            width: 100%;
+                                                                            text-align: center;
+                                                                              font-size: 120%;
+                                                                               color: #FFFFFF;
+                                                                                }
+
+                                                                    .pop
+                                                                        {
+
+                                                                            font-weight: 900;
+                                                                            background-color: #FFDB78;
+                                                                            border-radius: 10px;
+                                                                            width: 100%;
+                                                                            text-align: center;
+                                                                              font-size: 120%;
+                                                                               color: #FFFFFF;
+                                                                                }
+                                                                    .jp
+                                                                        {
+
+                                                                            font-weight: 900;
+                                                                            background-color: #FFDB78;
+                                                                            border-radius: 10px;
+                                                                            width: 100%;
+                                                                            text-align: center;
+                                                                              font-size: 120%;
+                                                                               color: #FFFFFF;
+                                                                                }
+
+                                                                    .google
+                                                                        {
+
+                                                                            font-weight: 900;
+                                                                            background-color: #FFDB78;
+                                                                            border-radius: 10px;
+                                                                            width: 100%;
+                                                                            text-align: center;
+                                                                              font-size: 120%;
+                                                                               color: #FFFFFF;
+                                                                                }
+
+
+                                                                    
